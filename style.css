@@ -5,52 +5,27 @@
 }
 .grid{
   display: grid;
-  grid-template-columns: 150px 100px 150px;
+  grid-template-columns: 2fr 2fr 4fr 2fr 2fr;
+  grid-column-gap: 2%;
+  justify-content: center;
+  align-items:center;
+  font-size: x-large;
+}
+.hero{
+  border: 2px solid black;
+  padding: 2%;
+  justify-self: end;
   text-align: center;
-  grid-auto-rows: 60px;
-  font-size: large;
-  border-radius: 10px 10px 10px 10px;
-  margin-left: 35%;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+
 }
-#hero{
-  text-align: right;
-  border-top: 2px solid black;
-  border-left: 2px solid black ;
-  border-right: 2px solid black;
-}
-#hero1{
-  text-align: right;
-  border-left: 2px solid black ;
-  border-right: 2px solid black;
-}
-#hero2{
+.score{
+  border: 2px solid black;
+  padding: 2%;
   text-align: center;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black ;
-  border-right: 2px solid black;
-  padding: 10%;
 }
-#villian{
-  text-align: left;
-  border-top: 2px solid black;
-  border-left: 2px solid black ;
-  border-right: 2px solid black;
-}
-#villian1{
-  text-align: right;
-  border-left: 2px solid black ;
-  border-right: 2px solid black;
-}
-#villian2{
-  text-align: right;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black ;
-  border-right: 2px solid black;
+.villian{
+  border: 2px solid black;
+  padding: 2%;
+  justify-self: start;
   text-align: center;
-  padding: 10%;
-}
-#score{
-  font-size: xx-large;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
